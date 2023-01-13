@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Menu Restaurant.css">
+        <script type="text/javascript" src="Menu Restaurant.js"></script>
+        <title>Composition de votre burger</title>
+
+    </head>
+
+    <body>
+
+        <h1>Composez votre burger !</h1>
+
+        <h2>Pain burger</h2>
+
+        <ul>
+            <li><input type="checkbox" name="article1" value="3" />
+Pain bun complet (3€)</li>
+            <li><input type="checkbox" name="article2" value="3" />
+Pain bun normal (3€)</li>
+            <li><input type="checkbox" name="article3" value="4" />
+Pain bun noir (4€)</li>
+            <li><input type="checkbox" name="article4" value="4" />
+Pain bun céréale (4€)</li>
+        </ul>
+
+
+        <h2>Steak</h2>
+
+
+        <ul>
+            <li><input type="checkbox" name="article1" value="3" />
+Boeuf (3€)</li>
+            <li><input type="checkbox" name="article2" value="3" />
+Poulet (3€)</li>
+            <li><input type="checkbox" name="article3" value="2" />
+Rosti (2€)</li>
+            <li><input type="checkbox" name="article3" value="2" />
+Vegan (2€)</li>
+        </ul>
+
+        <h2>Cruditées</h2>
+
+        <ul>
+            <li><input type="checkbox" name="article1" value="1" />
+Salade (1€)</li>
+            <li><input type="checkbox" name="article2" value="1" />
+Oignons (1€)</li>
+            <li><input type="checkbox" name="article3" value="1" />
+Cornichon    (1€)</li>
+            <li><input type="checkbox" name="article1" value="2" />
+Oignons Confits (2€)</li>
+            <li><input type="checkbox" name="article1" value="1" />
+Tomates (1€)</li>
+        </ul>
+
+        <h2>Boissons</h2>
+
+        <ul>
+            <li><input type="checkbox" name="article1" value="1" />
+Coca cola (1€)</li>
+            <li><input type="checkbox" name="article2" value="1" />
+Fanta (1€)</li>
+            <li><input type="checkbox" name="article3" value="1" />
+Sprite    (1€)</li>
+            <li><input type="checkbox" name="article1" value="1" />
+Oasis (1€)</li>
+        </ul>
+
+
+<button onclick="calculateTotal()">Calculer le prix total</button>
+
+<h2> Prix total : <span id="total"></span>€</h2>
+
+    </body>
+</html>
